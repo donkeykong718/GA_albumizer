@@ -1,0 +1,25 @@
+.nav{
+  max-width: 1000px;
+  background-color: #ed7878;
+  height: 100px;
+  margin: 0 auto;
+}
+
+main{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  width: 100%;
+}
+
+@media only screen and(min-width: 600px){
+  .card{
+    width: 50%;
+  }
+}
