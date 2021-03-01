@@ -1,5 +1,4 @@
 // Do not modify
-function displayLoaded() {}
 // We will be mimicking a slow-loading web site. To enhance user experience, we will
 // provide the user with some placeholder cards and animations while we mimic the
 // page loading.
