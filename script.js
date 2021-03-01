@@ -13,9 +13,9 @@ const loadingTime = setTimeout(() => {
 // In order to complete this assignment you will have access to an array called data.
 console.log(data);
 
-// 1. Using let, create a variable called loadingCards and use querySelectorAll to save all of the DOM elements with the class name 'card-container'
+// 1. Using const, create a variable called loadingCards and use querySelectorAll to save all of the DOM elements with the class name 'card-container'
 
-// 2. Using let, create a variable called 'cardList' that selects the ul with the class of 'card-list'
+// 2. Using const, create a variable called 'cardList' that selects the ul with the class of 'card-list'
 
 function removePlaceholderCards() {
   // 3. Using a for loop, loop through each of the loadingCards and remove it from the page.
@@ -29,7 +29,7 @@ function displayLoadedData() {
 
     // STAY INSIDE THE FOR LOOP. We need to create a few elements to build the boilerplate for our styling.
 
-    // 5. Create five new divs and save each to a let variable.
+    // 5. Create five new divs and save each to a const variable.
     // The div names should be: cardContainer, card, filterDiv, cardHeader, and cardBody
 
     // 6. Using appendChild, append cardContainer to the cardList defined above.
@@ -48,15 +48,15 @@ function displayLoadedData() {
 
     // At this point we should have a bunch of divs with no styling and not a lot of detail.
 
-    // 11. Using classList, add the class 'card-container' to the let cardContainer.
+    // 11. Using classList, add the class 'card-container' to the const cardContainer.
 
-    // 12. Using classList, add the class 'card' to the let card.
+    // 12. Using classList, add the class 'card' to the const card.
 
-    // 13. Using classList, add the class 'filter' to the let filterDiv.
+    // 13. Using classList, add the class 'filter' to the const filterDiv.
 
-    // 14. Using classList, add the class 'header' to the let cardHeader.
+    // 14. Using classList, add the class 'header' to the const cardHeader.
 
-    // 15. Using classList, add the class 'card-body' to the let cardBody.
+    // 15. Using classList, add the class 'card-body' to the const cardBody.
 
     // 15. Using the style property, add a background image to the card using data[i].img_url
 
