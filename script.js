@@ -33,7 +33,7 @@ function displayLoadedData() {
     // The div names should be: cardContainer, card, filterDiv, cardHeader, and cardBody
 
     // 6. Using appendChild, append cardContainer to the cardList defined above.
-    // If this works, you will be able to inspect the page amd see that the cardList has a number of empty divs.
+    // If this works, you will be able to inspect the page and see that the cardList has a number of empty divs.
 
     // 7. Using appendChild, append the div called card to cardContainer.
 
