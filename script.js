@@ -57,7 +57,7 @@ function displayLoadedData() {
 
     // 15. Using classList, add the class 'card-body' to the const cardBody.
 
-    // 15. Using the style property, add a background image to the card using data[i].img_url
+    // 16. Using the style property, add a background image to the card using data[i].img_url
 
     // BONUS SECTION //
 
